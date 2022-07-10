@@ -71,7 +71,8 @@ header article a:hover{
     padding: 10px 20px;
     border-radius: 20px;
     box-shadow: 5px 5px 30px grey;
-}#button:hover{
+}
+#button:hover{
     /* background-image: linear-gradient(to left,#373b44,#4286f4); */
     background-color: rgb(0, 186, 186);
 }
@@ -97,4 +98,46 @@ header article a:hover{
 .second-article p{
     color: rgb(136, 136, 136);
     text-align: justify;
+}
+
+
+.third-article-header{
+    text-align: center;
+    padding: 0 20%;
+}
+.third-article-header h1{
+    font-size: 50px;
+    color: crimson;
+}
+.third-article-header p{
+    color: rgb(136, 136, 136);
+
+}
+.third-article{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 100px;
+}
+.third-article-div{
+    width: 50%; 
+}
+.third-article-div div{
+    background-color:rgba(220, 20, 60, 0.107);
+    margin-top: 10%;
+    padding: 5% 10%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 30px gray;
+}
+.third-article-div p{
+    color:rgb(140, 140, 140);
+}
+.third-article-div h2{
+    color: rgb(36, 117, 120);
+}
+.third-div-1{
+    margin-right: 5%;   
+}
+.hird-div-2{
+    margin-left: 5%;
+    
 }
