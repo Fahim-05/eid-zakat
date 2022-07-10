@@ -126,13 +126,13 @@ header article a:hover{
     margin-top: 10%;
     padding: 5% 10%;
     border-radius: 20px;
-    box-shadow: 2px 2px 30px gray;
+    box-shadow: 2px 2px 20px gray;
 }
 .third-article-div p{
     color:rgb(140, 140, 140);
 }
 .third-article-div h2{
-    color: rgb(36, 117, 120);
+    color: rgba(38, 0, 255, 0.552);
 }
 .third-div-1{
     margin-right: 5%;   
@@ -140,4 +140,68 @@ header article a:hover{
 .hird-div-2{
     margin-left: 5%;
     
+}
+
+
+.feature-photo{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+.feature-photo div{
+    margin: 1%;
+    
+    
+}
+.feature-photo div img{
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px grey;
+}
+
+
+
+
+.fourth-article-header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.fourth-article-header p{
+    padding: 0 30%;
+}
+.fourth-article-header span{
+    color: red;
+}
+
+.fourth-article{
+    justify-content: center;
+    margin: 0 15%;
+    margin-bottom: 100px;
+    
+}
+.fourth-article div{
+    border: 0.1px solid rgba(140, 140, 140, 0.74);
+    border-radius: 10px;
+    margin: 0 10px;
+    width: 100%;
+    height: 400px;
+}
+.fourth-article div h3,p,a{
+    padding: 0 20px;
+}
+.fourth-article div h3{
+    color: blueviolet;
+}
+.fourth-article div a{
+    margin-left: 20px;
+}
+.fourth-article img{
+    border-radius: 10px;
+}
+.fourth-article img{
+    /* width: 300px; */
+    height: 150px;
+    width: 100%;
 }
