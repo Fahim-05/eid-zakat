@@ -1,30 +1,6 @@
 body{
     margin: 0%;
 }
-nav{
-    color: white;
-    
-}
-nav ul{
-    
-    position: absolute; 
-    list-style: none;
-    margin-left: 70%;
-    padding: 5px 0;
-}
-nav ul li{
-    
-   
-    display: inline;
-    margin: 10px;
-}
-nav ul li:hover{
-    background-color: rgba(0, 0, 255, 0.649);
-    padding: 2px 5px;
-    color: white;
-    
-}
-
 header{
     background-image: linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,.9)), url(images/eid/cover.jpg);
     background-repeat: no-repeat;
@@ -41,25 +17,24 @@ header article{
 header article h1{
     font-size: 50px;
     text-shadow: 1px 1px 5px orange;
-}
+} 
 header article span{
     color: red;
 }
 header article p{
-    color: rgb(198, 198, 198);
-    text-align: justify;
+    color: rgb(198, 198, 198); 
+     text-align: justify;
 }
 header article a{
     color: white;
     text-decoration: none;
-    /* background-image: linear-gradient(to left, #f2709c,#ff9472);padding: 10px 30px; */
     background-color: tomato;
     padding: 10px 20px;
     border-radius: 50px;
     box-shadow: 5px 5px 30px tomato;
 }
 header article a:hover{
-    /* background-image: linear-gradient(to left, orange, tomato); */
+    background-image: linear-gradient(to left, orange, tomato);
     background-color: orange;
 }
 
@@ -75,7 +50,7 @@ header article a:hover{
 }
 .first-article-div p{
     color: rgb(136, 136, 136);
-    text-align: justify;
+    text-align: rig;
 }
 .first-article-div iframe{
     box-shadow: 10px 10px 50px grey;
@@ -122,7 +97,7 @@ header article a:hover{
 }
 .second-article p{
     color: rgb(136, 136, 136);
-    text-align: justify;
+    text-align: left;
 }
 
 
@@ -136,7 +111,6 @@ header article a:hover{
 }
 .third-article-header p{
     color: rgb(136, 136, 136);
-
 }
 .third-article{
     margin-left: 15%;
@@ -154,11 +128,11 @@ header article a:hover{
     box-shadow: 1px 1px 10px gray;
 }
 .third-article-div div:hover{
-    background-color: rgba(100, 148, 237, 0.281);
+    background-color: rgba(100, 237, 123, 0.281);
 }
 .third-article-div p{
     color:rgb(140, 140, 140);
-}
+} */
 .third-article-div h2{
     color: rgba(38, 0, 255, 0.552);
 }
@@ -221,13 +195,16 @@ header article a:hover{
     height: 400px;
 }
 .fourth-article div:hover{
-    background-color: rgba(127, 255, 212, 0.203);
+    background-color: rgba(255, 127, 127, 0.203);
 }
 .fourth-article p{
     color:rgb(140, 140, 140);
 }
-.fourth-article div h3,p,a{
+.fourth-article div h3,a{
     padding: 0 20px;
+}
+.fourth-article p{
+    padding-left:20px;
 }
 .fourth-article div h3{
     color: blueviolet;
@@ -239,7 +216,6 @@ header article a:hover{
     border-radius: 10px;
 }
 .fourth-article img{
-    /* width: 300px; */
     height: 150px;
     width: 100%;
 }
